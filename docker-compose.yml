@@ -1,0 +1,12 @@
+version: "3.9"
+
+
+services:
+  opencanal:
+    build: .
+    container_name: opencanal
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
