@@ -1,0 +1,2 @@
+print("OpenCanal Map Generator")
+ 
