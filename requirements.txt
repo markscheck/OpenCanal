@@ -1,5 +1,3 @@
 fastapi
 uvicorn[standard]
-geopandas
-matplotlib
-contextily
+folium
