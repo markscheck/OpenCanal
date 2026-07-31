@@ -9,3 +9,8 @@ This folder contains research notes and references.
 - Aral Sea
 - Canal Engineering
 - Satellite Data
+- Lake Chad 
+- Chari River 
+- Komadugu River Yobe River 
+- El-Beid River
+- Ngadda River 
