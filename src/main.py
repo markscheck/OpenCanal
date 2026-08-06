@@ -1,5 +1,7 @@
 from fastapi import FastAPI 
 
+from src.data_loader import list_datasets, load_dataset
+
 
 app = FastAPI(
     title="OpenCanal",
@@ -14,3 +16,13 @@ def root():
        "status": "running"
 
 }
+
+@app.get("/api/v1/datasets")
+def datasets():
+    return {
+        "datasets": list_datasets()
+}
+
+@app.get("/api/v1/datasets/{filename}")
+def get_dataset(filename: str):
+    return load_dataset(filename)
