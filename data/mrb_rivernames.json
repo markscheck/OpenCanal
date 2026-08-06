@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "mrb_rivernames",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 67, "MRBID": 2902, "RIVERBASIN": "ARAL SEA", "RIVER": "Amu Darya", "CONTINENT": "Asia", "SEA": "---", "OCEAN": "---", "ORIG_FID": 67 }, "geometry": { "type": "Point", "coordinates": [ 65.002083333333275, 38.089583333332776 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 68, "MRBID": 2902, "RIVERBASIN": "ARAL SEA", "RIVER": "Aral Sea (North)", "CONTINENT": "Asia", "SEA": "---", "OCEAN": "---", "ORIG_FID": 68 }, "geometry": { "type": "Point", "coordinates": [ 60.78125, 46.397916666665999 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 69, "MRBID": 2902, "RIVERBASIN": "ARAL SEA", "RIVER": "Aral Sea (South)", "CONTINENT": "Asia", "SEA": "---", "OCEAN": "---", "ORIG_FID": 69 }, "geometry": { "type": "Point", "coordinates": [ 59.70208333333332, 45.068749999999348 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 70, "MRBID": 2902, "RIVERBASIN": "ARAL SEA", "RIVER": "Murgap", "CONTINENT": "Asia", "SEA": "---", "OCEAN": "---", "ORIG_FID": 70 }, "geometry": { "type": "Point", "coordinates": [ 62.493749999998585, 36.889583333332958 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 71, "MRBID": 2902, "RIVERBASIN": "ARAL SEA", "RIVER": "Naryn", "CONTINENT": "Asia", "SEA": "---", "OCEAN": "---", "ORIG_FID": 71 }, "geometry": { "type": "Point", "coordinates": [ 74.810416666666384, 41.414583333332693 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 72, "MRBID": 2902, "RIVERBASIN": "ARAL SEA", "RIVER": "Syr Darya", "CONTINENT": "Asia", "SEA": "---", "OCEAN": "---", "ORIG_FID": 72 }, "geometry": { "type": "Point", "coordinates": [ 66.60625, 43.956249999999351 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 73, "MRBID": 2902, "RIVERBASIN": "ARAL SEA", "RIVER": "Tejen Dersay", "CONTINENT": "Asia", "SEA": "---", "OCEAN": "---", "ORIG_FID": 73 }, "geometry": { "type": "Point", "coordinates": [ 61.22708333333199, 36.172916666666275 ] } }
+]
+}
