@@ -6,6 +6,8 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 def load_dataset(filename: str) ->dict:
     """Load a GeoJSON dataset from the data dictionary."""
+    if not filename.endswith(".json"):
+        filename += ".json"
     path = DATA_DIR / filename
 
     with path.open("r", encoding="utf-8") as f:
