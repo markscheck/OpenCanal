@@ -9,4 +9,5 @@ services:
       - "8000:8000"
     volumes:
       - .:/app
+      - ~/.cdsapirc:/root/.cdsapirc:ro
     restart: unless-stopped

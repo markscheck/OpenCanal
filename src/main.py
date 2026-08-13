@@ -26,3 +26,21 @@ def datasets():
 @app.get("/api/v1/datasets/{filename}")
 def get_dataset(filename: str):
     return load_dataset(filename)
+
+@app.get("/api/v1/discharge/amu-darya")
+def amu_darya_discharge():
+    import csv
+
+    path = "data/discharge/glofas/processed/amu_darya_glofas_2024.csv"
+
+    with open(path, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        records = list(reader)
+
+    return {
+        "river": "Amu Darya",
+        "source": "GloFAS",
+        "year": 2024,
+        "records": len(records),
+        "data": records
+    }
