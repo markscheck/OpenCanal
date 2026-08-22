@@ -5,9 +5,20 @@ on:
     branches: [main]
 
 jobs:
-  hello:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say hello 
-        run: echo "OpenCanal CI is working!"
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt 
+
+      - name: Check Python 
+        run: python -c "import src.main; print('OpenCanal imports successfully')"
