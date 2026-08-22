@@ -1,6 +1,6 @@
 import json
-import folium 
 
+import folium
 
 with open("data/mrb_basins.json", "r", encoding="utf-8") as f:
     basin_data = json.load(f)

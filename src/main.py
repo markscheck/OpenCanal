@@ -1,7 +1,6 @@
-from fastapi import FastAPI 
+from fastapi import FastAPI
 
 from src.data_loader import list_datasets, load_dataset
-
 
 app = FastAPI(
     title="OpenCanal",
